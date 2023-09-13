@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    background-color: rgb(42, 89, 230);
+    align-items: center;
+    /* justify-content: center; */
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 300px;
+}
+
+.quote{
+    font-size: 30px;
+    padding: 60px 130px;
+    text-align: center;
+}
+
+.line{
+    width: 700px;
+    height: 1px;
+    background-color: white;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+
+.author{
+    font-size: 20px;
+}
+
+.icons{
+    /* background-color: red; */
+    /* padding: 0 20px; */
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+}
